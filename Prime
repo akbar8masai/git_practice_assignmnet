@@ -1,15 +1,18 @@
-function check(num){
-  if (num%2==0){
+function check(number){
+  if (number%2==0){
     return true
   }else 
   return false;
 }
 for(i=0;i<=20;i++){
-  let ans= check(i);
+  let answer= check(i);
   
- if (ans==false){console.log(i);
-  
-   }
+ if (answer==false){console.log(i,"it is prime");
+  
+   }else{
+console.log("is not prime");}
 }
+
+
 
 
