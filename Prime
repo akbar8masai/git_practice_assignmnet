@@ -4,5 +4,12 @@ function check(num){
   }else 
   return false;
 }
+for(i=0;i<=20;i++){
+  let ans= check(i);
+  
+ if (ans==false){console.log(i);
+  
+   }
+}
 
 
